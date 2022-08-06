@@ -92,6 +92,10 @@ public class LinkedList<T> {
         return count;
     }
 
+    public T peek(){
+        return head.data;
+    }
+
     public void print() {
         Node<T> temp = head;
         while (temp != null) {
